@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: cadetblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #box{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: bisque;
+            transition: 1s ease-in;
+            
+        }
+
+        #con{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 2px solid rgb(255, 244,233);
+            animation: spinner 4s linear infinite;
+            
+        }
+        #con:hover{
+            /* background-color: chocolate; */
+            scale: 1.1;
+            box-shadow: 2px 20px 5000px 1px;
+            /* border-radius: 50% ; */
+            /* border: 2px solid black; */
+        }
+        @keyframes  spinner {
+            form{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="con">
+        <div id="box"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+body{
+    background-color:  rgb(24, 18, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box h1{
+    color: azure;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.img{
+    background-color: rgb(118, 30, 30);
+    width: 600px;
+    border-radius: 10;
+    box-shadow: 0px 3px 7px color(srgb rgb(28, 27, 27) green blue);
+}

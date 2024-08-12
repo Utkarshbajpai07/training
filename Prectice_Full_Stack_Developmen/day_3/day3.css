@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: bisque;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.mid{
+   background-image: url("./day4.jpg");
+   height: 800px;
+   display: flex;
+   justify-content: end;
+   padding-right: 5rem;
+   align-items: center;
+
+}
+.mid-content{
+    color: white;
+    padding-right: 2rem;
+    font-size:xx-large;
+}
+nav ul li{
+    
+    font-size: 25px;
+    
+}
+
+
+#btn{
+    display: flex;
+    align-items: center;
+   
+    padding: 1rem 5rem;
+    border-radius:50px;
+    background-color: #b92323;
+    font-size: 20px;
+    font: b;
+}
+#new{
+    display: inline-block;
+    font-size: 20px;
+    padding: 25px 40px;
+    background-color: #460909;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+footer{
+    color: #333;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer .sub {
+    
+    gap: 33%;
+    display:flex ;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.mid h1 {
+    font-size: 48px;
+    margin: 0 0 20px;
+}

@@ -1,0 +1,20 @@
+ 
+body{
+   
+    display:auto;
+    background-color: rgb(132, 132, 146);
+    align-items: center;
+    
+}
+.top{
+    display: flex;
+    background-color: rgb(53, 53, 140); 
+    margin-top: 0%;
+}
+*{
+    margin: 0%;
+    padding:0;
+}
+.login{
+    align-content: center;
+}
