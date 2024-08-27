@@ -137,10 +137,14 @@ body{
 }
 .part4{
     background-color: #18181e;
-    height: 683px;
+    height: 684px;
     width: 100%;
+    position: relative;
 }
 .img1{
+    position:absolute;
+    left: 20rem;
+    top: 6rem;
     height: 500px;
     width: 560px;
     background-image: url("./day_4\(1\).jpeg");
