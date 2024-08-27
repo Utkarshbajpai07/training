@@ -1,1 +1,0 @@
-alert("Hello TR-4")
