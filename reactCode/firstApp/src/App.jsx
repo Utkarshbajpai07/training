@@ -1,9 +1,10 @@
-import Card from "./Card";
+import State from "./State";
+
 
 function App(){
   return(
     <>
-   <Card heading="Card1" desc=" this is card"/>
+   <State/>
     </>
   )
  
