@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    }
+
+    header{
+        /* height: 10vh; */
+        background-color: #4b6ca9;
+    }
+
+    main{
+        justify-content: flex-end;
+        display: flex;
+
+        padding: 5px;
+        /* height: 70vh; */
+        background-color: #d0e9fb;
+    }
+
+    footer {
+        margin-left: 4rem;
+        text-align: start;
+        flex-direction: column;
+        display: flex;
+
+        
+        /* height: 20vh; */
+        word-spacing: 20px;
+        color: rgba(0, 0, 255, 0.483);
+        line-height: 3vh;
+       
+        font-size: small;
+        font-weight: 600;
+    }
+
+    .header-div {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 5vw;
+    }
+
+    .header-div > div > input {
+        padding: 5px;
+    }
+
+    .main-div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+       
+        margin-right: 10vw;   
+        gap: 5px;     
+    }
+
+    .main-div > span > input {
+        margin: 0 5px;
+    }
+
+    .main-div > p {
+        color: grey;
+        font-size: small;
+    }
+
+    main > div > input {
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+        border: 1px solid rgb(164, 164, 164);
+    }
+
+    h3 {
+        color: rgb(60, 60, 60);
+        font-weight: 400;
+    }
+
+    h1 {
+        color: rgb(49, 49, 49);
+    }
+
+    #name {
+        display: flex;
+        gap: 4px;
+        margin-top: 10px;
+        margin: 5px 0;
+    }
+
+    #name > input {
+        padding: 10px;
+        border: 1px solid rgb(164, 164, 164);
+
+    }
+
+    #create-btn {
+        background-color: #419a41;
+        width: 15vw;
+        height: 4vh;
+        border-radius: 5px;
+        color: white;
+        font-weight: 800;
+    }
+
+    #login-btn{
+        font-weight: 600;
+        background-color: #134171;
+        padding: 2px;
+        color: white;
+        
+        width: 5vw;
+        margin: 40px 6px;
+        border: none;
+    }
+
+   
+
+    .header-item{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 5px;
+        color: white;
+    }
+
+    h5{
+        padding: 5px 0;
+    }
+
+</style>
+
+<body>
+
+    <header>
+        <div class="header-div">
+            <div class="header-item">
+                <h5>Email or Phone</h5>
+                <input type="email">
+            </div>
+            <div class="header-item">
+                <h5>Password</h5>
+                <input type="password">
+                <h5>forgotten password?</h5>
+            </div>
+
+            <button type="submit" id="login-btn">Log In</button>
+        </div>
+    </header>
+
+    <main>
+        
+        <div class="main-div">
+            <h1>Create an account</h1>
+            <h3>It's free and always will be</h3>
+
+            <div id="name">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Surname">
+            </div>
+                
+            <input type="email" placeholder="Mobile number or email">
+            <input type="password" placeholder="New password">
+
+            <h3>Birthday</h3>
+            <input type="date">
+
+            <span>
+                <input type="radio" value="Male" name="gender">Female<input type="radio" value="Female" name="gender">Male
+            </span>
+
+            <p>By clicking create an account, you agree our terms and that<br>
+            you have read our Data policy and Cookie use</p>
+            <br>
+            <button type="submit" id="create-btn">Create an account</button>
+            Create a page for celebrity, band or buisness
+        </div>
+
+    </main>
+
+    <footer>
+        English (UK) हिन्दी ਪੰਜਾਬੀ ارد ગુજરાતી मराठी বাংলা தமிழ் తెలుగు മലയാളം ಕನ್ನಡ
+        <hr>
+        Signup login Messegner Dotnettec mobile Find Freinds BAdges People places Games<br>
+        Locations celebrities Groups messages moments about Create advert Create page Developers Carrers Privacy Cookies<br>
+        Ads Terms help
+
+    </footer>
+
+</body>
+</html>
